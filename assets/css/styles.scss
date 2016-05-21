@@ -32,9 +32,15 @@ body {
 
 .headerLinks {
   margin-left: auto;
-  color: red;
   a {
     text-decoration: none;
     color: black;
   }
+}
+
+.boigraphy {
+  font-size: 2em;
+  color: $lightBlue;
+  margin-top: 1em;
+  text-align: center;
 }
