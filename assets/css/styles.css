@@ -1,0 +1,23 @@
+body {
+  background-color: #ECECEA; }
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+  border-bottom: 1px solid #032B43; }
+
+.logo {
+  font-weight: bold;
+  letter-spacing: 2px; }
+
+.headerLinks {
+  margin-left: auto;
+  color: red; }
+  .headerLinks a {
+    text-decoration: none;
+    color: black; }
+
+/*# sourceMappingURL=styles.css.map */

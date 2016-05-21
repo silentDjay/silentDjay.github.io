@@ -1,0 +1,40 @@
+$darkBlue: #032B43;
+$lightGreen: #136F63;
+$yellow: #FFBA08;
+$red: #D00000;
+$lightBlue: #3F88C5;
+$background: #ECECEA;
+$roboto: 'Roboto', sans-serif;
+
+body {
+  background-color: $background;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  // flex-direction: row;
+  // flex-wrap: none;
+  font:{
+    family: $roboto;
+    size: 2em;
+  }
+  border: {
+    bottom: 1px solid $darkBlue;
+  }
+}
+
+.logo {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.headerLinks {
+  margin-left: auto;
+  color: red;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
