@@ -5,6 +5,7 @@ $red: #D00000;
 $lightBlue: #3F88C5;
 $background: #ECECEA;
 $roboto: 'Roboto', sans-serif;
+$transitionTime: .7s;
 
 body {
   background-color: $background;
@@ -48,4 +49,54 @@ body {
   color: $lightGreen;
   margin-top: 1em;
   text-align: left;
+}
+
+.myWork {
+  width: 90%;
+  margin:{
+    left: 5%;
+    top: 2em;
+  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.projDiv {
+  // width: calc(99% / 3);
+  text-decoration: none;
+  // background-image: url(../files/CiW.png);
+}
+
+.line {
+  border-top: solid 6px $lightGreen;
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: .8em;
+  transition: -webkit-transform $transitionTime;
+}
+
+.projDeets {
+   font-size: .6em;
+   opacity: 0;
+   transition: -webkit-transform $transitionTime, opacity $transitionTime;
+}
+
+//These are the classes that will be added to certain elements via javascript
+
+#iconHover {
+  -webkit-transform: translateY(10px);
+}
+
+.lineHover {
+  -webkit-transform: translateY(50px);
+}
+
+.englishHover {
+  -webkit-transform: translateY(-40px);
+}
+
+.deutschHover {
+  -webkit-transform: translateY(-10px);
+  opacity: 1;
 }

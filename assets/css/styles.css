@@ -28,4 +28,40 @@ body {
   margin-top: 1em;
   text-align: left; }
 
+.myWork {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.projDiv {
+  text-decoration: none; }
+
+.line {
+  border-top: solid 6px #136F63;
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: .8em;
+  transition: -webkit-transform 0.7s; }
+
+.projDeets {
+  font-size: .6em;
+  opacity: 0;
+  transition: -webkit-transform 0.7s, opacity 0.7s; }
+
+#iconHover {
+  -webkit-transform: translateY(10px); }
+
+.lineHover {
+  -webkit-transform: translateY(50px); }
+
+.englishHover {
+  -webkit-transform: translateY(-40px); }
+
+.deutschHover {
+  -webkit-transform: translateY(-10px);
+  opacity: 1; }
+
 /*# sourceMappingURL=styles.css.map */
