@@ -4,10 +4,9 @@ body {
 .header {
   display: flex;
   justify-content: flex-start;
-  padding: 10px;
+  padding: 15px;
   font-family: "Roboto", sans-serif;
-  font-size: 2em;
-  border-bottom: 1px solid #032B43; }
+  font-size: 2em; }
 
 .logo {
   font-weight: bold;
@@ -37,28 +36,42 @@ body {
   justify-content: space-around; }
 
 .projDiv {
+  width: calc(99% / 3);
   text-decoration: none; }
 
+.projTitle {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding-bottom: 4px; }
+
 .line {
-  border-top: solid 6px #136F63;
+  border-top: solid 3px #136F63;
   width: 50%;
   margin-left: 25%;
-  margin-bottom: .8em;
-  transition: -webkit-transform 0.7s; }
+  transition: -webkit-transform 0.7s, opacity 0.7s; }
 
 .projDeets {
   font-size: .6em;
   opacity: 0;
   transition: -webkit-transform 0.7s, opacity 0.7s; }
 
-#iconHover {
-  -webkit-transform: translateY(10px); }
+.projLink {
+  display: inline-block; }
+
+.projRepo {
+  display: inline-block;
+  float: right; }
+
+.projDescription {
+  margin-top: 5px;
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif; }
 
 .lineHover {
-  -webkit-transform: translateY(50px); }
-
-.englishHover {
-  -webkit-transform: translateY(-40px); }
+  -webkit-transform: translateY(50px);
+  opacity: 0; }
 
 .deutschHover {
   -webkit-transform: translateY(-10px);
