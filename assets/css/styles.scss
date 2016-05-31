@@ -88,13 +88,19 @@ body {
 }
 
 .projDeets {
-   font-size: .6em;
+  margin-top: 5px;
+  font:{
+    size: 1em;
+    family: $roboto;
+  }
+  //  font-size: .6em;
    opacity: 0;
    transition: -webkit-transform $transitionTime, opacity $transitionTime;
 }
 
 .projLink {
   display: inline-block;
+  // text-decoration: none;
 }
 
 .projRepo {
@@ -104,10 +110,10 @@ body {
 
 .projDescription {
   margin-top: 5px;
-  font:{
-    size: 1.5em;
-    family: $roboto;
-  }
+  // font:{
+  //   size: 1.5em;
+  //   family: $roboto;
+  // }
 }
 
 //These are the classes that will be added to certain elements via javascript
