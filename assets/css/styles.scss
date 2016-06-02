@@ -64,6 +64,10 @@ body {
 
 .projDiv {
   width: calc(99% / 3);
+  margin:{
+    left: 3.5px;
+    right: 3.5px;
+  }
   text-decoration: none;
 }
 
@@ -90,8 +94,8 @@ body {
     size: 1em;
     family: $roboto;
   }
-   opacity: 0;
-   transition: -webkit-transform $transitionTime, opacity $transitionTime;
+  opacity: 0;
+  transition: -webkit-transform $transitionTime, opacity $transitionTime;
 }
 
 .projLink {
@@ -112,7 +116,7 @@ body {
   opacity: 0;
 }
 
-.deutschHover {
+.projectHover {
   -webkit-transform: translateY(-10px);
   opacity: 1;
 }

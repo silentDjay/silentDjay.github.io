@@ -39,6 +39,8 @@ body {
 
 .projDiv {
   width: calc(99% / 3);
+  margin-left: 3.5px;
+  margin-right: 3.5px;
   text-decoration: none; }
 
 .projTitle {
@@ -75,7 +77,7 @@ body {
   -webkit-transform: translateY(50px);
   opacity: 0; }
 
-.deutschHover {
+.projectHover {
   -webkit-transform: translateY(-10px);
   opacity: 1; }
 

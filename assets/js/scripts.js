@@ -3,12 +3,12 @@ $(document).ready( function () {
 
   $(".projDiv").on("mouseover", function () {
     $(this).children().filter(".line").addClass("lineHover");
-    $(this).children().filter(".projDeets").addClass("deutschHover");
+    $(this).children().filter(".projDeets").addClass("projectHover");
   });
 
   $(".projDiv").on("mouseout", function () {
     $(this).children().filter(".line").removeClass("lineHover");
-    $(this).children().filter(".projDeets").removeClass("deutschHover");
+    $(this).children().filter(".projDeets").removeClass("projectHover");
   });
 
 });
