@@ -15,14 +15,9 @@ body {
   display: flex;
   justify-content: flex-start;
   padding: 15px;
-  // flex-direction: row;
-  // flex-wrap: none;
   font:{
     family: $roboto;
     size: 2em;
-  }
-  border: {
-    // bottom: 3px solid $darkBlue;
   }
 }
 
@@ -36,6 +31,11 @@ body {
   a {
     text-decoration: none;
     color: black;
+  }
+  span {
+    padding:{
+      left: 5px;
+    }
   }
 }
 
@@ -64,9 +64,7 @@ body {
 
 .projDiv {
   width: calc(99% / 3);
-  // flex-grow: 2;
   text-decoration: none;
-  // background-image: url(../files/CiW.png);
 }
 
 .projTitle {
@@ -83,7 +81,6 @@ body {
   border-top: solid 3px $lightGreen;
   width: 50%;
   margin-left: 25%;
-  // margin-bottom: .8em;
   transition: -webkit-transform $transitionTime, opacity $transitionTime;
 }
 
@@ -93,14 +90,12 @@ body {
     size: 1em;
     family: $roboto;
   }
-  //  font-size: .6em;
    opacity: 0;
    transition: -webkit-transform $transitionTime, opacity $transitionTime;
 }
 
 .projLink {
   display: inline-block;
-  // text-decoration: none;
 }
 
 .projRepo {
@@ -110,26 +105,12 @@ body {
 
 .projDescription {
   margin-top: 5px;
-  // font:{
-  //   size: 1.5em;
-  //   family: $roboto;
-  // }
 }
-
-//These are the classes that will be added to certain elements via javascript
-
-// #iconHover {
-//   -webkit-transform: translateY(10px);
-// }
 
 .lineHover {
   -webkit-transform: translateY(50px);
   opacity: 0;
 }
-
-// .englishHover {
-//   -webkit-transform: translateY(-40px);
-// }
 
 .deutschHover {
   -webkit-transform: translateY(-10px);
